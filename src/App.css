@@ -1,0 +1,15 @@
+body {
+  background: linear-gradient(135deg, #f7e8a4 0%, #faf0c4 50%, #fff8dc 100%);
+  min-height: 100vh;
+}
+
+.App {
+  min-height: 100vh;
+  padding: 20px 0;
+}
+
+.card {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.95) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
