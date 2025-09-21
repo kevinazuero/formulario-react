@@ -9,7 +9,7 @@ Descarga e instala desde: https://nodejs.org
 
 ### 2. Clonar el proyecto
 ```bash
-   git clone https://github.com/kevinazuero/Formulario-Basico-react.git
+   git clone https://github.com/kevinazuero/formulario-react.git
 ```
 
 ### 3. Instalar dependencias
