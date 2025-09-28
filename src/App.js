@@ -89,7 +89,6 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Validar todos los campos
     const nombreError = validateNombre(formData.nombre);
     const correoError = validateCorreo(formData.correo);
     const contrasenaError = validateContrasena(formData.contrasena);
@@ -100,7 +99,6 @@ function App() {
       contrasena: contrasenaError
     });
 
-    // Si no hay errores, procesar el formulario
     if (!nombreError && !correoError && !contrasenaError) {
       alert('¡Registro exitoso! Todos los datos son válidos.');
       setFormData({ nombre: '', correo: '', contrasena: '' });
@@ -110,7 +108,6 @@ function App() {
     }
   };
 
-  // PASO 5: El JSX actualizado con estados y eventos (va en el return)
   return (
     <div className="App">
       <div className="container mt-5">
